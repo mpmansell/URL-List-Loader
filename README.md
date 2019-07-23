@@ -53,6 +53,22 @@ If this is copied, and pasted, into the text area of this addon,  only the Githu
 
 
 
+## Installing
+
+Currently the plugin is not available on the Firefox Add-ons store but can be installed from the signed XPI file, `foxytab_url_list_loader-1.0-fx.xpi`. :
+
+
+
+1. Save the add-on file to a suitable location on your computer.
+2. In Firefox, open the Firefox menu ![Firefox browser menu button](https://mdn.mozillademos.org/files/15199/Firefox_menu.png) and click **Add-ons**.
+3. From the settings cog, open **Install Add-on From File**
+4. Browse to and open the file from the location where it was saved.
+5. When prompted click **Add**
+6. The add-on will now appear in the add-on manager’s list of installed add-ons and be ready to use:
+
+
+
 
 ## See also:
-1. https://addons.mozilla.org/en-US/firefox/addon/foxytab/
+1. FoxyTab – Get this Extension for 🦊 Firefox (en-US)
+   https://addons.mozilla.org/en-US/firefox/addon/foxytab/
