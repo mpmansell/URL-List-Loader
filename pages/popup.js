@@ -13,7 +13,7 @@ function loadPages() {
     var complete_text = document.getElementById("links-inward").value;
     var lines = complete_text.split('\n');
 
-    var match_string = "^\s*(http|https):\/\/.*$";
+    var match_string = "^\s*((http|https):\/\/).*$";
 
     lines.forEach(function(element) {
         if(RegExp(match_string, "i").test(element)) {

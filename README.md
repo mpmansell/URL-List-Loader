@@ -31,5 +31,28 @@ the URLs can be pasted, and a button, "Open Pages", that when pressed will
 attempt to open tabs for each of the URLs the addon is able to filter from the
 pasted text.
 
-See also:
+## Example
+
+The following is an example of the text captured by FoxyTab->Copy->Titles_URLsAll:
+
+```
+Debugging with Firefox Developer Tools
+about:debugging
+
+Add-ons Manager
+about:addons
+
+mpmansell/URL-List-Loader: Opens muliple tabs from a pasted in list
+https://github.com/mpmansell/URL-List-Loader
+
+```
+
+
+
+If this is copied, and pasted, into the text area of this addon,  only the Github URL will be loaded, while the others are ignored.
+
+
+
+
+## See also:
 1. https://addons.mozilla.org/en-US/firefox/addon/foxytab/
