@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+
+    "name": "FoxyTab URL List Loader",
+    "short_name": "URL Loader",
+    "description": "Allows tabs saved using FoxyTab copy to be re-loaded. It will also work with any list that has URLs on single lines, filtering out all lines that don't contain a URL",
+    "version": "1.0",
+
+    "author": "Mark Peter Mansell",
+    "developer": {
+        "name": "Mark Peter Mansell",
+        "url": "https://github.com/mpmansell/URL-List-Loader.git"
+    },
+
+    "applications": {
+        "gecko": {
+            "id": "URLListLoader@mpmansell"
+        }
+    },
+
+    "icons": {
+               "128":"common/images/tasks-solid.svg"
+     },
+
+    "browser_action": {
+        "default_icon": "common/images/tasks-solid.svg",
+        "default_popup": "pages/popup.html"
+    }
+}
